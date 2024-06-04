@@ -5,3 +5,5 @@ This project is part of a hypertuning assignment that was given to me to get my 
 Navigate to the folder 'hypertune_experiment_notebooks' and run Script.ipynb . 2 experiments are conducted here: outcomment the code of the experiment you DON'T want to run.
 
 After this, Tensorboard can be launched to gain insight in the results (the experiments I conducted earlier are also already in there).
+
+Please note that the required dependency `ray` is not in the .toml-file yet. Please try to add it yourself using `pdm`, `poetry` or a similar tool.
